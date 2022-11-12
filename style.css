@@ -3,3 +3,31 @@ body {
   height: 100%;
   margin: 0;
 }
+nav  a.visited{
+  color: rgb(5, 5, 78);
+}
+nav a{
+  background-color: #c0c0c0;
+}
+figure{
+  margin-bottom: 20px;
+}
+body #centerContents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #centerContents figcaption,section > p{
+  flex-direction: column;
+  padding-left: 150px;
+}
+#details{
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+#details > div{
+  flex-direction: row;
+}
