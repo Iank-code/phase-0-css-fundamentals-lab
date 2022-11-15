@@ -9,26 +9,24 @@ nav  a.visited{
 nav a{
   background-color: #c0c0c0;
 }
-figure{
-  margin-bottom: 20px;
+div{
+  width: 25%;
 }
-body #featured-property{
+
+body header,header + section{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body #featured-property figcaption,section > p{
-  flex-direction: column;
-  padding-left: 150px;
-}
-#featured-property p{
+header p{
   width: 800px;
 }
 #details{
   background-color: red;
   display: flex;
   justify-content: space-evenly;
+  padding-left: 170px;
   /* padding: 5px; */
 }
 #details > div{
