@@ -12,21 +12,24 @@ nav a{
 figure{
   margin-bottom: 20px;
 }
-body #centerContents{
+body #featured-property{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body #centerContents figcaption,section > p{
+body #featured-property figcaption,section > p{
   flex-direction: column;
   padding-left: 150px;
+}
+#featured-property p{
+  width: 800px;
 }
 #details{
   background-color: red;
   display: flex;
   justify-content: space-evenly;
-  padding: 5px;
+  /* padding: 5px; */
 }
 #details > div{
   flex-direction: row;
